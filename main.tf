@@ -64,7 +64,7 @@ data "template_file" "cloud_init_tpl" {
   }
 }
 
-////生成clound init模板文件 yaml格式
+//生成clound init模板文件 yaml格式
 data "cloudinit_config" "foo" {
   gzip = false
   base64_encode = false
